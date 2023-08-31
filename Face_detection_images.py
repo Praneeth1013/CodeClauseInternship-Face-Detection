@@ -2,7 +2,7 @@ import cv2
 
 # Loading the haarcascade model from opencv 
 faceClassifier = cv2.CascadeClassifier(cv2.data.haarcascades+"haarcascade_frontalface_default.xml")
-path = 'images/1.jpg' # Image path
+path = 'images/3.jpg' # Image path
 img = cv2.imread(path)
 
 def rescaleFrame(frame, scale = 0.9):
